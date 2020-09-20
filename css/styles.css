@@ -1,0 +1,98 @@
+.carousel .carousel-indicators li {
+   width: 10px;
+   height: 10px;
+   border-radius: 100%;
+   
+ }
+ 
+.carousel .carousel-indicators .active{
+   background-color: #187BC1
+    
+}
+
+img { 
+   max-width:100%; 
+   height:auto;
+} 
+.banner-container > div {
+   display: inline-block;
+}
+
+.company-name {
+   width: 40%;
+}
+.company-name-box {
+   position:relative;
+   top :25px;
+}
+.p1 {
+   font-family: 'Kanit', sans-serif;
+   color : #187BC1;
+   font-size : 20px;
+   font-weight : 500;
+   
+
+}
+.p2 {
+   font-family: 'Kanit', sans-serif;
+   color : #888888;
+   font-size : 18px;
+   font-weight: 300;
+}
+
+.logo {
+   width: 30%;
+}
+
+.button {
+   width: 28%;
+   display: inline-block;
+   padding-left: 16px;
+   position: relative;
+   top: 12px;
+
+}
+.button a,
+.button a:hover {
+   color: #ffffff;
+}
+
+.click {
+   background-color: #187BC1;
+   color: #ffffff;
+   font-family: 'Kanit', sans-serif;
+   font-size : 14px;
+   font-weight: 500;
+   width: 160px;
+   height: 45px;
+   border: none;
+   -webkit-box-shadow: 0px 5px 10px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 10px -8px rgba(0,0,0,0.75);
+box-shadow: 0px 5px 10px -8px rgba(0,0,0,0.75);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+   .logo {
+      width: 100%;
+   }
+   .company-name {
+      width: 100%;
+      padding: 10px 30px;
+      text-align: center;
+   }
+   .button {
+      width: 100%;
+      padding-top: 40px;
+      text-align: center;
+   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {}
